@@ -1,7 +1,5 @@
 # Location Visualizer with Mapbox and Folium
 
-This project allows you to visualize location data extracted from a Google Maps Timeline history JSON file. It enables filtering locations by timestamp and plotting them on a map using custom Mapbox styles. You can represent the locations as a thin line connecting coordinates and customize zoom levels.
-
 ![alt text](map.png)
 
 
