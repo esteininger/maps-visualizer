@@ -28,14 +28,14 @@ This project allows you to visualize location data extracted from a Google Maps 
 1. Clone the repository or download the code.
 2. Install the required dependencies: `pip install folium`
 3. Rename the "Location History.json" file to "data.json" and place it in the project folder.
-4. Open the main script and replace \`YOUR_MAPBOX_ACCESS_TOKEN_HERE\` with your actual Mapbox access token.
-5. Run the script: `python main.py``
+4. Open the main script and replace `YOUR_MAPBOX_ACCESS_TOKEN_HERE` with your actual Mapbox access token.
+5. Run the script: `python main.py`
 
 ### 4. Customize the Map
 
-- You can filter the locations by timestamp by modifying the \`start_timestamp\` and \`end_timestamp\` parameters.
+- You can filter the locations by timestamp by modifying the `start_timestamp` and `end_timestamp` parameters.
 - You can change the appearance of the map by selecting different Mapbox styles or altering line properties.
-- The map will be saved as \`map.html\` and can be opened in a web browser.
+- The map will be saved as `map.html` and can be opened in a web browser.
 
 ## Contributing
 
