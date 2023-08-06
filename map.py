@@ -2,10 +2,8 @@ from folium import IFrame
 import json
 import folium
 
-mapbox_access_token = "pk.eyJ1IjoiZXN0ZWluMjEiLCJhIjoiY2xreXQ5NWYzMG1xdjNmcjM4cHo2ZnM0YiJ9.8eccfauunwyoHqrGbe-zhg"
 
-
-def create_map(step=1, mapbox_access_token=mapbox_access_token, zoom_start=13.5):
+def create_map(step=1, mapbox_access_token="YOUR_MAPBOX_ACCESS_TOKEN_HERE", zoom_start=13.5):
     # Read the filtered data from the JSON file
     with open('filtered_data.json', 'r') as file:
         data = json.load(file)
